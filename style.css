@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+}
+.logo {
+  width: 50%;
+}
+
+.jumbotron {
+  background: linear-gradient(rgba(239, 113, 36,.9), transparent),
+              linear-gradient(180deg, transparent,rgba(239, 113, 36,.6)),
+  url('img/hero image.jpg')no-repeat center/cover;
+  height:75vh;
+  color: #fff;
+}
+.jumbotron h1 {
+  font-size:4rem;
+}
+.jumbotron p {
+  font-size:2rem;
+}
+
+.navbar{
+  background-color: #F8B94A;
+}
+.ftr-1{
+  background-color:#F7A93D ;
+}
+.ftr-2{
+background-color: #F8B94A ;
+}
+.accontBtn{
+  background-color:#F7A73C;
+}
+.nav-link{
+  color: #fff;
+}
+
+.ftr-2 {
+  margin: 0 auto;
+}
+.logoBottom {
+  width: 60%;
+}
+
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+  .footerNav-1{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 25px;
+  }
+
+  .footerNav-2 {
+    padding: 25px 0 ;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .icons {
+    padding-top:25px;
+    text-align: center;
+  }
+
+  .btn{
+  display:inline-flex;
+  }
+  .copy{
+    font-size: .85rem;
+  }
+  .logos {
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  .betterbus {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+ @media (min-width: 768px) {
+
+   .footerNav-1,
+   .footerNav-2{
+     display:flex;
+     flex-direction:column;
+      border-right: 1px solid lightgrey;
+   }
+   .logos {
+      display: flex;
+     align-items:center;
+   }
+   .betterbus {
+     display:flex;
+     align-items: center;
+     justify-content: center;
+   }
+
+
+ }
